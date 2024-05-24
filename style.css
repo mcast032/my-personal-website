@@ -1,3 +1,30 @@
 body {
-    background: blue;
+    background: rgb(6, 65, 51);
+
   }
+
+  #navbar{
+    background-color: rgb(6, 65, 51);
+    padding: 60px;
+    align-items: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+   
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between; /* This will spread the columns evenly */
+    align-items: center; /* Aligns items vertically in the center */
+  }
+
+  .nav-column {
+    flex: 1; /* Each column takes equal space */
+    text-align: center; /* Center text within each column */
+  }
+
+  .nav-column {
+    text-align: center; /* Center text within each column */
+  }
+
+ 
